@@ -1,0 +1,49 @@
+.main .devBlock {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+    width: 95%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.main .devBlock div:nth-child(2), .main div:nth-child(3) {
+    display: flex;
+}
+
+.main .devBlock div:nth-child(1) h6 {
+    margin-bottom: 0;
+}
+.main .devBlock div h6:first-child {
+    margin-right: 2rem;
+}
+
+.main .devBlock div:nth-child(1) {
+    flex: 1;
+}
+
+.main .devBlock div:nth-child(2) {
+    flex: 1;
+    margin: 0 2rem;
+}
+
+.main .devBlock div:nth-child(3) {
+    flex: 1.5;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main .devBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }    
+    .main .devBlock div {
+        margin-top: .6rem;
+    }   
+    .main .devBlock div:nth-child(2) {
+        flex: 1;
+        margin: 0;
+    }
+}

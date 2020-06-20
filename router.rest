@@ -1,0 +1,18 @@
+
+GET http://localhost:5000
+
+###
+
+POST  http://localhost:5000
+Content-Type: application/json
+
+{
+    "income": 30,
+    "position": "Senior Python Developer",
+    "positionType": "Full-Time",
+    "location": "Boston",
+    "skillsList": "Node.js, Express.js, HTML, CSS",
+    "experience": "1-3"
+}
+
+###

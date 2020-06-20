@@ -1,0 +1,42 @@
+.main {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.main div:first-child button {
+    margin-bottom: 2rem;
+}
+
+.main div:first-child button:hover {
+    background-color: #1c1f33;
+    color: white;
+    transition: .3s ease;
+}
+
+.main div:last-child button:hover {
+    background-color: #1c1f33;
+    color: white;
+    transition: .3s ease;
+}
+
+
+.main nav li a {
+    background-color: #424349;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main div:first-child button {
+        margin-bottom: .8rem;
+    }
+    .main div:last-child {
+        margin-top: 1rem;
+    }
+}

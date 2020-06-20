@@ -1,0 +1,28 @@
+.main {
+    margin-top: 3rem;
+}
+
+.main form {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main form div input {
+    margin-right: 1rem;
+}
+
+.main form button:hover {
+    background-color: #1c1f33;
+    color: white;
+    transition: .3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .main form {
+        display: flex;
+        flex-direction: column;
+    }
+    .main form button {
+        margin-top: 1rem;
+    }
+}

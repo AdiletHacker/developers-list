@@ -1,0 +1,38 @@
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+img, i:hover {
+    cursor: pointer;
+}
+
+.main div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+
+.main div i {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.main img {
+    width: 10em;
+}
+
+@media only screen and (max-width: 768px) {
+    .main div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+    }
+    .main img {
+        width: 7em;
+    }
+}

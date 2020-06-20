@@ -1,0 +1,62 @@
+.main nav {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.main .navbarBrand {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.main .navbarBrand img {
+    width: 70px;
+    padding-right: 1rem;
+}
+
+.main .navbarToggler {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.main .btnLg {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    color: #1c1f33;
+    font-weight: bold;
+    border: 2px solid #1c1f33;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 1.05rem;
+}
+
+.main .btnLg:hover {
+    background-color: #1c1f33;
+    color: white;
+    transition: .2s ease;
+}
+
+.main .btnLg i {
+    margin-right: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .main .btnLg {
+        position: unset;
+    }
+}
+
+.main .navbarNav li {
+    margin-right: 40px;
+}
+
+.main .navbarNav li a {
+    font-size: 1.15rem;
+    font-weight: bold;
+}

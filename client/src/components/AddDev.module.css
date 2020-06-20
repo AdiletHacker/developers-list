@@ -1,0 +1,32 @@
+
+.main {
+    margin-top: 1.5rem;
+}
+
+.main form label {
+    margin-top: .8rem;
+}
+
+.main form label {
+    margin-top: .8rem;
+    font-weight: 500;
+}
+
+.main form .experience label {
+    margin-top: .4rem;
+}
+
+.main form button {
+    margin-top: 1.5rem;
+    width: 200px;
+    font-size: 1.4rem;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
